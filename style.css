@@ -48,6 +48,11 @@ body {
     background-position: center;
 }
 
+.experience-intro{
+    background-image: url('experience.jpg');
+    background-position: center;
+}
+
 .header-section {
     text-align: center;
     padding: 60px 20px;
@@ -325,7 +330,79 @@ body {
 
 .project:hover {
     transform: scale(1.02);
-    box-shadow: 0px 10px 25px rgba(255, 171, 0, 0.4);
+    box-shadow: 0px 10px 25px rgba(27, 96, 94, 0.4);
+}
+
+.experience-section {
+    padding: 40px;
+    background-color: #2b2b2b; 
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(130, 128, 128, 0.443); 
+    max-width: 800px; 
+}
+
+.experience-section h2 {
+    text-align: center;
+    font-size: 2.5rem; 
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.experience-section h2 span {
+    background: linear-gradient(to right, #008B8B, #898989); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.experience-item {
+    background: #333333; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px #333333; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.experience-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 15px rgba(83, 83, 83, 0.2); 
+}
+
+.experience-item h3 {
+    font-size: 1.8rem; 
+    color: #5baca1; 
+    margin-bottom: 10px; 
+}
+
+.experience-item p {
+    font-size: 1rem; 
+    color: #a1a6a6; 
+    margin-bottom: 15px; 
+}
+
+.experience-item ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.experience-item li {
+    margin-bottom: 10px; 
+    font-size: 1rem; 
+    color: #fafafa; 
+}
+
+.experience-item li span {
+    position: relative; 
+}
+
+.experience-item li span:before {
+    content: "•"; 
+    color: #4c4c4c;
+    font-weight: bold; 
+    position: absolute; 
+    left: -15px; 
 }
 
 
@@ -351,7 +428,7 @@ body {
 
 
 .contact-info:hover {
-    box-shadow: 0 8px 20px rgba(255, 171, 0, 0.6); 
+    box-shadow: 0 8px 20px rgba(34, 104, 106, 0.6); 
     transform: translateY(-4px); 
     color: #008B8B; 
 }
