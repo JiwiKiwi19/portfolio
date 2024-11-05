@@ -193,13 +193,13 @@ body {
     color: #e0e0e0;
 }
 
-/* General Section Styling */
+
 .hidden-section {
-    opacity: 0; /* Start hidden */
+    opacity: 0; 
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Slide-In Animations */
+
 .hidden-section span, 
 .hidden-section .education span,
 .hidden-section .project span {
@@ -209,21 +209,21 @@ body {
     animation-fill-mode: forwards;
 }
 
-/* Slide-In from Left */
+
 .hidden-section span,
 .hidden-section .education span,
 .hidden-section .project span {
     animation-name: slideInLeft;
-    transform: translateX(-30px); /* Start off to the left */
+    transform: translateX(-30px); 
 }
 
-/* Slide-In from Right for Variability */
+
 .hidden-section .project span {
     animation-name: slideInRight;
-    transform: translateX(30px); /* Start off to the right */
+    transform: translateX(30px); 
 }
 
-/* Keyframes for Slide-In from Left */
+
 @keyframes slideInLeft {
     from {
         opacity: 0;
@@ -235,7 +235,7 @@ body {
     }
 }
 
-/* Keyframes for Slide-In from Right */
+
 @keyframes slideInRight {
     from {
         opacity: 0;
@@ -247,7 +247,7 @@ body {
     }
 }
 
-/* Trigger Visibility on Scroll (Optional) */
+
 .hidden-section.visible {
     opacity: 1;
 }
@@ -303,22 +303,22 @@ body {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Project List Styling */
+
 .project ul {
-    list-style-type: none; /* Remove bullets for a cleaner look */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
 }
 
 .project li {
-    margin-bottom: 15px; /* Space between each list item */
-    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px; 
+    line-height: 1.6; 
 }
 
 .project li span {
     display: inline-block;
-    padding: 0 10px; /* Add spacing on left and right sides */
-    margin-top: 3px; /* Extra spacing above each sentence */
+    padding: 0 10px; 
+    margin-top: 3px; 
 }
 
 
