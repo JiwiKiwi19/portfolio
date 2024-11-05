@@ -1,0 +1,92 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="name-container">
+            <h3 class="first-head">Hey there 👋 ,</h3>
+            <h1 class="second-head">I'm Jiwon Lee</h1>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/JiwiKiwi19" target="_blank" class="icon" id="github-icon">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jiwon-lee-7614362ab" target="_blank" class="icon" id="linkedin-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </header>
+    
+    
+    <main>
+        <section class="intro-section content">
+            <div class="section-box prof-intro">
+                <div class="text-overlay">
+                    <h2>About Me</h2>
+                    <p>Currently studying Computer Science at UWO</p>
+                    <a href="#data-details" class="smooth-scroll">More</a>
+                </div>
+            </div>
+            <div class="section-box project-intro">
+                <div class="text-overlay">
+                    <h2>Projects</h2>
+                    <p>Explore Jiwon's projects!</p>
+                    <a href="#projects-details" class="smooth-scroll">More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="data-details" class="hidden-section about-section">
+            <h2><span>About Me</span></h2>
+            <div class="education">
+                <h3><span>University of Western Ontario</span></h3>
+                <p><span>I'm pursuing a <strong>Bachelor of Science in Computer Science</strong> with a focus on <strong>Data Analytics</strong> and <strong>Machine Learning</strong>, expecting to graduate in <strong>May 2027</strong>.</span></p>
+                <div class="coursework">
+                    <h4><span>Relevant Coursework</span></h4>
+                    <ul>
+                        <li><span><i class="fas fa-laptop-code"></i> Computing in Python, Java, Object-Oriented Programming</span></li>
+                        <li><span><i class="fas fa-calculator"></i> Discrete Mathematics</span></li>
+                        <li><span><i class="fas fa-microchip"></i> Assembly and C-programming/Unix</span></li>
+                    </ul>
+                </div>
+                <p><span>Through these courses, I’ve built a solid foundation for future work in <strong>data science</strong> and <strong>software development</strong>.</span></p>
+            </div>
+        </section>
+        
+        
+        <section id="projects-details" class="hidden-section">
+            <h2 class="proj-head"><span>Projects</span></h2>
+            <div class="project">
+                <h3><span>Sentiment Analysis | Python, Jupyter</span></h3>
+                <ul>
+                    <li><span>Classified sentiment of Amazon reviews using data visualization and processing libraries like <strong>NumPy</strong> and <strong>Matplotlib</strong>.</span></li>
+                    <li><span>Used <strong>Hugging Face Transformers</strong> with <strong>RoBERTa</strong> model for sentiment analysis.</span></li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3><span>Baseball Analytics | Python, Jupyter</span></h3>
+                <ul>
+                    <li><span>Predicted MLB player stats, calculating future WAR using <strong>Pybaseball</strong> and <strong>NumPy</strong>.</span></li>
+                    <li><span>Data preprocessing with <strong>pandas</strong> for metrics like OBP and OPS.</span></li>
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <p>📞 : +1 (647) 889 3822 | 📪 : ousfame5@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
